@@ -23,7 +23,7 @@ function About() {
             </h2>
           </Reveal>
         </div>
-        <p className="mt-6 max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+        <p className="mt-6 max-w-[900px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           {aboutConfig.description}
         </p>
       </div>

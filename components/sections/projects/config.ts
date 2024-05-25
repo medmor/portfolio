@@ -4,12 +4,12 @@ const projects: Project[] = [
   {
     name: 'Personal Portfolio Website',
     description:
-      'A personal portfolio to showcase your coding projects, resume, and skills in a beautifully designed format.',
+      'A personal portfolio to showcase my coding projects, resume, and skills.',
     thumbnail: '/images/projects/portfolio/cover.jpg',
     links: [
       {
         type: 'github',
-        url: 'https://github.com/'
+        url: 'https://github.com/medmor/portfolio'
       },
       {
         type: 'live',
