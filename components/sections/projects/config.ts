@@ -13,19 +13,18 @@ const projects: Project[] = [
       },
       {
         type: 'live',
-        url: 'https://example.com/'
+        url: 'https://portfolio-sigma-nine-29.vercel.app/'
       }
     ]
   },
   {
-    name: 'Recipe Sharing App',
-    description:
-      'A social app for food lovers where users can post, share, and discover recipes from around the world.',
+    name: 'LandingPage template',
+    description: 'A respensive landing page template.',
     thumbnail: '/images/projects/recipe_app/cover.jpg',
     links: [
       {
         type: 'github',
-        url: 'https://github.com/'
+        url: 'https://github.com/medmor/svt20-landing-page-template'
       },
       {
         type: 'live',
