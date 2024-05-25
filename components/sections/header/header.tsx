@@ -20,17 +20,6 @@ const Header: React.FC = () => {
           <span className="sr-only">{meta.author.name}</span>
         </Link>
         <div onClick={() => setIsActive(!isActive)} className={styles.el}>
-          <div className={styles.label}>
-            <motion.p
-              variants={opacity}
-              animate={!isActive ? 'open' : 'closed'}
-            >
-              Menu
-            </motion.p>
-            <motion.p variants={opacity} animate={isActive ? 'open' : 'closed'}>
-              Close
-            </motion.p>
-          </div>
           <div
             className={`${styles.burger} ${isActive ? styles.burgerActive : ''}`}
           ></div>

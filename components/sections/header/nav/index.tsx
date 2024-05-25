@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 import { height } from '../anim';
 import Body from './body/body';
 import Footer from './footer/footer';
-import Image from './image/image';
+import LinkImage from './image/image';
 import ModeToggle from '@/components/mode-toggle';
 
 import { links } from '../config';
@@ -42,7 +42,7 @@ const Index: React.FC<IndexProps> = ({ setIsActive }) => {
           />
           {/* <Footer /> */}
         </div>
-        <Image
+        <LinkImage
           src={links[selectedLink.index].thumbnail}
           isActive={selectedLink.isActive}
         />

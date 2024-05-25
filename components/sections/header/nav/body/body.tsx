@@ -22,24 +22,7 @@ export default function Body({
   setSelectedLink,
   setIsActive
 }: BodyProps) {
-  const getChars = (word: string) => {
-    let chars: JSX.Element[] = [];
-    word.split('').forEach((char, i) => {
-      chars.push(
-        <motion.span
-          custom={[i * 0.02, (word.length - i) * 0.01]}
-          variants={translate}
-          initial="initial"
-          animate="enter"
-          exit="exit"
-          key={char + i}
-        >
-          {char}
-        </motion.span>
-      );
-    });
-    return chars;
-  };
+
 
   return (
     <div className={styles.body}>
@@ -59,11 +42,27 @@ export default function Body({
                   : 'closed'
               }
             >
-              {getChars(title)}
+              <Chars word={title} />
             </motion.p>
           </Link>
         );
       })}
     </div>
   );
+}
+
+const Chars = ({ word }: { word: string }) => {
+  return (
+    word.split('').map((char, i) => <motion.span
+      custom={[i * 0.02, (word.length - i) * 0.01]}
+      variants={translate}
+      initial="initial"
+      animate="enter"
+      exit="exit"
+      key={char + i}
+    >
+      {char}
+    </motion.span>
+    )
+  )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import MotionWrap from '@/components/motion-wrap';
 import Image from 'next/image';
+import { aboutConfig } from '../config';
 
 function About() {
   return (
@@ -12,13 +13,10 @@ function About() {
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="space-y-4">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              About Me
+              {aboutConfig.title}
             </h2>
             <p className="max-w-[700px] text-gray-500 dark:text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I am a passionate and creative Web Developer with a love for
-              beautiful and functional websites. I have experience working with
-              a variety of web technologies and frameworks and I am always eager
-              to learn new things and take on new challenges.
+              {aboutConfig.description}
             </p>
           </div>
           <div className="grid gap-4 sm:gap-6">

@@ -14,7 +14,6 @@ import { testimonials } from '../config';
 function Testimonials() {
   return (
     <MotionWrap
-      className="w-full border-t border-gray-200  py-24 dark:border-gray-700 lg:py-32"
       id="testimonials"
     >
       {/* TODO: Redesign for horizontal */}
