@@ -9,7 +9,8 @@ import {
 const skills: Skill[] = [
   {
     name: 'Web Development',
-    description: 'Building beautiful and functional websites.',
+    description:
+      'Building beautiful and functional websites (HTML, CSS, JS, React, Next.js, Tailwind).',
     Icon: CodeIcon
   },
   {
@@ -24,7 +25,7 @@ const skills: Skill[] = [
   },
   {
     name: 'Mobile Development',
-    description: 'Crafting apps for smartphones and tablets.',
+    description: 'Crafting apps for smartphones and tablets (React Native).',
     Icon: SmartphoneIcon
   }
 ];

@@ -20,7 +20,7 @@ const projects: Project[] = [
   {
     name: 'LandingPage template',
     description: 'A respensive landing page template.',
-    thumbnail: '/images/projects/recipe_app/cover.jpg',
+    thumbnail: '/images/projects/landingPage/cover.jpg',
     links: [
       {
         type: 'github',
@@ -28,39 +28,38 @@ const projects: Project[] = [
       },
       {
         type: 'live',
-        url: 'https://example.com/'
+        url: 'https://landing-page-template-iota.vercel.app/en'
       }
     ]
   },
   {
-    name: 'Virtual Study Group Platform',
-    description:
-      'A platform where students can form virtual study groups, schedule sessions, and share resources in real-time.',
-    thumbnail: '/images/projects/study_group/cover.jpg',
+    name: 'SVT20',
+    description: 'My first website. Present a collection of science ressources',
+    thumbnail: '/images/projects/svt20/cover.jpg',
     links: [
       {
         type: 'github',
-        url: 'https://github.com/'
+        url: 'https://github.com/medmor'
       },
       {
         type: 'live',
-        url: 'https://example.com/'
+        url: 'https://www.svt20.com/'
       }
     ]
   },
   {
-    name: 'Fitness Tracker App',
+    name: 'Taallam',
     description:
-      'A mobile app that helps users track their fitness activities, set goals, and monitor progress with motivational tools.',
-    thumbnail: '/images/projects/fitness_tracker/cover.jpg',
+      'A website for my kids, where they can learn and share their learning.',
+    thumbnail: '/images/projects/taallam/cover.jpg',
     links: [
       {
         type: 'github',
-        url: 'https://github.com/'
+        url: 'https://github.com/medmor'
       },
       {
         type: 'live',
-        url: 'https://example.com/'
+        url: 'https://www.taallam.xyz/'
       }
     ]
   },

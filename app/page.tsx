@@ -23,7 +23,7 @@ export default function Home() {
           <About />
           <Projects />
           <Skills />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
           <Footer />
         </main>
